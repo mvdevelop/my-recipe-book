@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\viniciusdilly\\3D Objects\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj",
+      "projectUniqueName": "C:\\Users\\viniciusdilly\\Documents\\programming\\cs-udemy-course\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj",
       "projectName": "MyRecipeBook.API",
-      "projectPath": "C:\\Users\\viniciusdilly\\3D Objects\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj",
+      "projectPath": "C:\\Users\\viniciusdilly\\Documents\\programming\\cs-udemy-course\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj",
       "packagesPath": "C:\\Users\\viniciusdilly\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\viniciusdilly\\3D Objects\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\obj\\",
+      "outputPath": "C:\\Users\\viniciusdilly\\Documents\\programming\\cs-udemy-course\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -490,7 +490,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -520,7 +520,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
