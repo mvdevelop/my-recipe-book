@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\viniciusdilly\\Documents\\programming\\cs-udemy-course\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj": {}
+    "C:\\Users\\marco\\Programming\\udemy-cs-course\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\viniciusdilly\\Documents\\programming\\cs-udemy-course\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj": {
+    "C:\\Users\\marco\\Programming\\udemy-cs-course\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\viniciusdilly\\Documents\\programming\\cs-udemy-course\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj",
+        "projectUniqueName": "C:\\Users\\marco\\Programming\\udemy-cs-course\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj",
         "projectName": "MyRecipeBook.API",
-        "projectPath": "C:\\Users\\viniciusdilly\\Documents\\programming\\cs-udemy-course\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj",
-        "packagesPath": "C:\\Users\\viniciusdilly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\viniciusdilly\\Documents\\programming\\cs-udemy-course\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\obj\\",
+        "projectPath": "C:\\Users\\marco\\Programming\\udemy-cs-course\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\Programming\\udemy-cs-course\\meu-livro-de-receitas\\src\\Backend\\MyRecipeBook.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\viniciusdilly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -66,6 +66,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -74,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
