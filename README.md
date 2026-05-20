@@ -1,144 +1,156 @@
 
-# 📖 Meu Livro de Receitas – API .NET
+# 📖 My Recipe Book – .NET API
 
-API REST desenvolvida em **.NET** para gerenciar um livro de receitas, permitindo o cadastro, consulta, atualização e remoção de receitas culinárias.  
-A documentação interativa da API é disponibilizada via **Swagger**.
+A REST API developed in **.NET** to manage a cookbook, allowing the creation, retrieval, update, and deletion (CRUD) of culinary recipes.  
+The interactive API documentation is provided via **Swagger**.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 
 - **.NET (ASP.NET Core Web API)**
 - **C#**
 - **Swagger (Swashbuckle)**
 - **Entity Framework Core**
-- **Banco de Dados Relacional** (SQL Server / PostgreSQL / SQLite)
-- **Docker** (opcional)
+- **Relational Database** (SQL Server / PostgreSQL / SQLite)
+- **Docker** (optional)
 
 ---
 
-## 📂 Funcionalidades
+## 📂 Features
 
-- 📌 Cadastro de receitas
-- 📌 Listagem de receitas
-- 📌 Consulta de receita por ID
-- 📌 Atualização de receitas
-- 📌 Remoção de receitas
-- 📌 Documentação automática com Swagger
-
----
-
-## 📑 Documentação da API (Swagger)
-
-Após iniciar a aplicação, a documentação estará disponível em:
-
-https://localhost:5001/swagger
-
-nginx
-Copiar código
-
-ou
-
-http://localhost:5000/swagger
-
-yaml
-Copiar código
-
-O Swagger permite:
-- Testar todos os endpoints
-- Visualizar modelos de requisição e resposta
-- Ver códigos de status HTTP
+- 📌 Recipe registration
+- 📌 List all recipes
+- 📌 Find recipe by ID
+- 📌 Update recipes
+- 📌 Delete recipes
+- 📌 Automatic documentation with Swagger
 
 ---
 
-## ⚙️ Pré-requisitos
+## 📑 API Documentation (Swagger)
 
-Antes de iniciar, você precisará ter instalado:
+Once the application is running, the documentation will be available at:
 
-- **.NET SDK** (versão 6 ou superior)
+- `https://localhost:5001/swagger`
+- `http://localhost:5000/swagger`
+
+Swagger allows you to:
+- Test all endpoints interactively
+- View request and response models
+- Check HTTP status codes
+
+---
+
+## ⚙️ Prerequisites
+
+Before you begin, make sure you have installed:
+
+- **.NET SDK** (version 6 or higher)
 - **Git**
-- Banco de dados configurado (opcional, dependendo do projeto)
+- Configured Database (optional, depending on your setup)
 
-Verifique a instalação:
+Verify your installation:
 ```bash
 dotnet --version
-▶️ Como Executar o Projeto
-1️⃣ Clonar o repositório
-bash
-Copiar código
-git clone https://github.com/seu-usuario/meu-livro-de-receitas.git
-cd meu-livro-de-receitas
-2️⃣ Restaurar dependências
-bash
-Copiar código
+```
+
+---
+
+## ▶️ How to Run the Project
+
+### 1. Clone the repository
+```bash
+git clone https://github.com
+cd my-recipe-book
+```
+
+### 2. Restore dependencies
+```bash
 dotnet restore
-3️⃣ Executar a aplicação
-bash
-Copiar código
+```
+
+### 3. Run the application
+```bash
 dotnet run
-A API estará disponível em:
+```
 
-arduino
-Copiar código
-https://localhost:5001
-🔗 Endpoints Principais (Exemplo)
-Método	Rota	Descrição
-GET	/api/receitas	Listar todas as receitas
-GET	/api/receitas/{id}	Buscar receita por ID
-POST	/api/receitas	Criar nova receita
-PUT	/api/receitas/{id}	Atualizar receita
-DELETE	/api/receitas/{id}	Remover receita
+The API will be up and running at: `https://localhost:5001`
 
-🧪 Exemplo de Requisição (POST)
-json
-Copiar código
+---
+
+## 🔗 Main Endpoints
+
+
+| Method | Route | Description |
+| :--- | :--- | :--- |
+| **GET** | `/api/recipes` | List all recipes |
+| **GET** | `/api/recipes/{id}` | Get a recipe by ID |
+| **POST** | `/api/recipes` | Create a new recipe |
+| **PUT** | `/api/recipes/{id}` | Update an existing recipe |
+| **DELETE**| `/api/recipes/{id}` | Delete a recipe |
+
+---
+
+## 🧪 Request Example (POST /api/recipes)
+
+```json
 {
-  "titulo": "Bolo de Chocolate",
-  "descricao": "Bolo simples e fofinho",
-  "tempoPreparo": 60,
-  "ingredientes": [
-    "Farinha",
-    "Ovos",
-    "Chocolate em pó",
-    "Açúcar"
+  "title": "Chocolate Cake",
+  "description": "Simple and fluffy cake recipe",
+  "prepTime": 60,
+  "ingredients": [
+    "Flour",
+    "Eggs",
+    "Cocoa powder",
+    "Sugar"
   ]
 }
-🗂️ Estrutura do Projeto (Exemplo)
-powershell
-Copiar código
-meu-livro-de-receitas/
+```
+
+---
+
+## 🗂️ Project Structure
+
+```text
+my-recipe-book/
 ├── Controllers/
 ├── Models/
 ├── Data/
 ├── Services/
 ├── Program.cs
 └── appsettings.json
-🔒 Boas Práticas
-Uso de DTOs para entrada e saída de dados
+```
 
-Validações com Data Annotations
+---
 
-Separação de responsabilidades (Controllers, Services, Repositories)
+## 🔒 Best Practices Implemented
 
-Versionamento de API (opcional)
+*   Use of Data Transfer Objects (DTOs) for requests and responses.
+*   Data validation using Data Annotations.
+*   Separation of Concerns (Controllers, Services, Repositories).
+*   API Versioning (optional).
 
-📌 Próximos Passos
-Autenticação e autorização (JWT)
+---
 
-Paginação e filtros
+## 📌 Next Steps / Roadmap
 
-Deploy em nuvem (Render, Azure, Railway)
+*   Authentication and Authorization (JWT)
+*   Pagination and Filtering
+*   Cloud Deployment (Render, Azure, Railway)
+*   Automated Testing
 
-Testes automatizados
+---
 
-👨‍💻 Autor
-Desenvolvido por mvdevelop
-📧 Email: seu-email-aqui
-🔗 GitHub: seu-github-aqui
+## 👨‍💻 Author
 
-📄 Licença
-Este projeto está sob a licença MIT.
-Sinta-se à vontade para usar, modificar e contribuir 🚀
+*   Developed by **mvdevelop**
+*   **LinkedIn:** [://linkedin.com](https://www.://linkedin.com/)
+*   **GitHub:** [://github.com](https://://github.com)
 
-yaml
-Copiar código
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+Feel free to use, modify, and contribute! 🚀
